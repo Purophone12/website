@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://pushy-modern-manatee-gzndrd.teleporthq.app/sitemap.xml
