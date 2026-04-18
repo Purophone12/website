@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pushy Modern Manatee</title>
+    <meta property="og:title" content="Pushy Modern Manatee" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Roboto;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0.02em;
+        line-height: 1.6;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div class="navigation-container1">
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <style>
+                  @media (prefers-reduced-motion: reduce) {
+                  .navigation-stagger-item {
+                    animation: none !important;
+                    opacity: 1 !important;
+                    transform: none !important;
+                  }
+                  }
+                </style>
+              </div>
+            </div>
+            <nav id="main-navigation" class="navigation-wrapper">
+              <div class="navigation-container">
+                <a href="Homepage">
+                  <div aria-label="MSL SafeWeb Home" class="navigation-brand">
+                    <div class="navigation-logo-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                        >
+                          <path
+                            d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                          ></path>
+                          <path d="m9 12l2 2l4-4"></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <span class="navigation-brand-name section-title">
+                      MSL Academy
+                    </span>
+                  </div>
+                </a>
+                <div class="navigation-desktop-menu">
+                  <ul class="navigation-links-list">
+                    <li>
+                      <a href="Homepage">
+                        <div class="navigation-link">
+                          <span>Curriculum</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="Homepage">
+                        <div class="navigation-link"><span>Platform</span></div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="Homepage">
+                        <div class="navigation-link">
+                          <span>SafeWeb Filtering</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="Homepage">
+                        <div class="navigation-link">
+                          <span>Community</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="navigation-actions">
+                    <a href="Homepage">
+                      <div class="btn btn-outline btn-sm">
+                        <span>Student Login</span>
+                      </div>
+                    </a>
+                    <a href="Homepage">
+                      <div class="btn btn-sm btn-primary">
+                        <span>Enroll Now</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <button
+                  id="mobile-menu-open"
+                  aria-expanded="false"
+                  aria-controls="mobile-overlay"
+                  aria-label="Open Menu"
+                  class="navigation-mobile-toggle"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 8h16M4 16h16"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+            </nav>
+            <div
+              id="mobile-overlay"
+              aria-hidden="true"
+              class="navigation-mobile-overlay"
+            >
+              <div class="navigation-mobile-header">
+                <a href="Homepage">
+                  <div class="navigation-brand">
+                    <div class="navigation-logo-icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                        >
+                          <path
+                            d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                          ></path>
+                          <path d="m9 12l2 2l4-4"></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <span class="navigation-brand-name section-title">
+                      MSL SafeWeb
+                    </span>
+                  </div>
+                </a>
+                <button
+                  id="mobile-menu-close"
+                  aria-label="Close Menu"
+                  class="navigation-mobile-close"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M18 6L6 18M6 6l12 12"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="navigation-mobile-content">
+                <ul class="navigation-mobile-links">
+                  <li class="navigation-stagger-item">
+                    <a href="Homepage">
+                      <div class="navigation-mobile-link">
+                        <span>Curriculum</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="navigation-stagger-item">
+                    <a href="Homepage">
+                      <div class="navigation-mobile-link">
+                        <span>Platform</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="navigation-stagger-item">
+                    <a href="Homepage">
+                      <div class="navigation-mobile-link">
+                        <span>SafeWeb Filtering</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="navigation-stagger-item">
+                    <a href="Homepage">
+                      <div class="navigation-mobile-link">
+                        <span>Community</span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <div class="navigation-mobile-actions navigation-stagger-item">
+                  <a href="Homepage">
+                    <div class="btn btn-outline btn-lg">
+                      <span>Student Login</span>
+                    </div>
+                  </a>
+                  <a href="Homepage">
+                    <div class="btn btn-primary btn-lg">
+                      <span>Enroll Now</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="navigation-container4">
+              <div class="navigation-container5">
+                <style>
+                          @keyframes navFadeIn {to {opacity: 1;
+                  transform: translateY(0);}}
+                </style>
+              </div>
+            </div>
+            <div class="navigation-container6">
+              <div class="navigation-container7">
+                <script defer="" data-name="navigation-logic">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const mobileMenuOpen = document.getElementById("mobile-menu-open")
+                      const mobileMenuClose = document.getElementById("mobile-menu-close")
+                      const mobileOverlay = document.getElementById("mobile-overlay")
+
+                      if (mobileMenuOpen && mobileOverlay) {
+                        mobileMenuOpen.addEventListener("click", () => {
+                          mobileOverlay.setAttribute("aria-hidden", "false")
+                          mobileMenuOpen.setAttribute("aria-expanded", "true")
+                          document.body.style.overflow = "hidden"
+                        })
+                      }
+
+                      if (mobileMenuClose && mobileOverlay) {
+                        mobileMenuClose.addEventListener("click", () => {
+                          mobileOverlay.setAttribute("aria-hidden", "true")
+                          mobileMenuOpen.setAttribute("aria-expanded", "false")
+                          document.body.style.overflow = ""
+                        })
+                      }
+
+                      const mobileLinks = document.querySelectorAll(".navigation-mobile-link")
+                      mobileLinks.forEach((link) => {
+                        link.addEventListener("click", () => {
+                          mobileOverlay.setAttribute("aria-hidden", "true")
+                          mobileMenuOpen.setAttribute("aria-expanded", "false")
+                          document.body.style.overflow = ""
+                        })
+                      })
+
+                      window.addEventListener("resize", () => {
+                        if (window.innerWidth > 767 && mobileOverlay.getAttribute("aria-hidden") === "false") {
+                          mobileOverlay.setAttribute("aria-hidden", "true")
+                          mobileMenuOpen.setAttribute("aria-expanded", "false")
+                          document.body.style.overflow = ""
+                        }
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </navigation-wrapper>
+        <section class="hero-section">
+          <div class="hero-video-wrapper">
+            <video
+              autoplay="true"
+              muted="true"
+              loop="true"
+              playsinline="true"
+              poster="https://images.pexels.com/videos/11025549/pictures/preview-0.jpeg"
+              src="https://videos.pexels.com/video-files/11025549/11025549-hd_4096_2160_25fps.mp4"
+              class="hero-bg-video"
+            ></video>
+            <div class="hero-overlay"></div>
+          </div>
+          <div class="hero-content-outer">
+            <div class="hero-content-inner">
+              <div class="hero-glass-card">
+                <h1 class="hero-title">
+                  Empowering Independent Thinkers in a Digital Age
+                </h1>
+                <p class="hero-subtitle">
+                  Our student-centered learning environment focuses on academic
+                  growth, digital literacy, and the freedom to explore through
+                  project-based education.
+                </p>
+                <div class="hero-cta-group">
+                  <a href="#platform">
+                    <div class="btn btn-primary btn-lg">
+                      <span>Explore Our Platform</span>
+                    </div>
+                  </a>
+                  <a href="#community">
+                    <div class="btn btn-lg btn-outline">
+                      <span>Learn About Our Community</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="platform" class="platform-features">
+          <div class="section-container">
+            <div class="section-header">
+              <h2 class="section-title">A Unified Online Experience</h2>
+              <p class="section-content">
+                Students access coursework through a unified online platform to
+                manage assignments, monitor progress, and communicate with
+                instructors.
+              </p>
+            </div>
+            <div class="platform-grid">
+              <div class="feature-card">
+                <div class="feature-icon-box">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 7v6m-8 6.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20M9 10h6"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Coursework Management</h3>
+                <p class="section-content">
+                  Centralized access to all learning materials, modules, and
+                  interactive textbooks in one secure location.
+                </p>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon-box">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M16 5H3m8 7H3m13 7H3M18 9v6m3-3h-6"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Assignment Tracking</h3>
+                <p class="section-content">
+                  Never miss a deadline with automated reminders and a clear
+                  visualization of upcoming project milestones.
+                </p>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon-box">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M10.268 21a2 2 0 0 0 3.464 0M15 8h6m-3-3v6m2.002 3.464a9 9 0 0 0 .738.863A1 1 0 0 1 20 17H4a1 1 0 0 1-.74-1.673C4.59 13.956 6 12.499 6 8a6 6 0 0 1 8.75-5.332"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Progress Monitoring</h3>
+                <p class="section-content">
+                  Real-time analytics for students and parents to track academic
+                  growth and identify areas for extra focus.
+                </p>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon-box">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                    >
+                      <path
+                        d="M22 13V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8"
+                      ></path>
+                      <path
+                        d="m22 7l-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7m17 9v6m-3-3h6"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Instructor Comms</h3>
+                <p class="section-content">
+                  Direct, secure messaging channels to facilitate individualized
+                  support and timely feedback from educators.
+                </p>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon-box">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3.85 8.62a4 4 0 0 1 4.78-4.77a4 4 0 0 1 6.74 0a4 4 0 0 1 4.78 4.78a4 4 0 0 1 0 6.74a4 4 0 0 1-4.77 4.78a4 4 0 0 1-6.75 0a4 4 0 0 1-4.78-4.77a4 4 0 0 1 0-6.76M12 8v8m-4-4h8"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Streamlined Updates</h3>
+                <p class="section-content">
+                  Our technical infrastructure allows for rapid implementation
+                  of new features and educational tools.
+                </p>
+              </div>
+              <div class="feature-card">
+                <div class="feature-icon-box">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="m11 19l-1.106-.552a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0l4.212 2.106a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619V12m-6-6.236V12m3 3v6m3-3h-6M9 3.236v15"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Evolving Experience</h3>
+                <p class="section-content">
+                  A platform that grows with the student, providing a reliable
+                  and modern educational ecosystem.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="literacy-section">
+          <div class="section-container literacy-flex">
+            <div class="literacy-visual">
+              <img
+                src="https://images.pexels.com/photos/5212695/pexels-photo-5212695.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                alt="Students collaborating on a project"
+                class="literacy-img"
+              />
+              <div class="literacy-accent-box"></div>
+            </div>
+            <div class="literacy-text">
+              <h2 class="section-title">
+                Digital Literacy &amp; Independent Thinking
+              </h2>
+              <p class="section-content">
+                We provide a structured curriculum aligned with core standards
+                while encouraging flexible, project-based exploration. Our
+                students don't just consume technology; they master it to solve
+                real-world problems.
+              </p>
+              <div class="literacy-list">
+                <div class="literacy-item">
+                  <div class="item-marker"><span>01</span></div>
+                  <div class="item-body">
+                    <h4 class="section-subtitle">Project-Based Mastery</h4>
+                    <p class="section-content">
+                      Students engage in deep-dive projects that require
+                      critical thinking and technical proficiency.
+                    </p>
+                  </div>
+                </div>
+                <div class="literacy-item">
+                  <div class="item-marker"><span>02</span></div>
+                  <div class="item-body">
+                    <h4 class="section-subtitle">Critical Problem Solving</h4>
+                    <p class="section-content">
+                      Curriculum designed to foster independence, teaching
+                      students how to find and validate information.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="community" class="community-stats">
+          <div class="section-container">
+            <div class="section-header">
+              <h2 class="section-title">Small Community, Massive Impact</h2>
+              <p class="section-content">
+                Our small learning community allows for individualized support
+                and continuous refinement of both teaching methods and systems.
+              </p>
+            </div>
+            <div class="stats-grid">
+              <div class="stat-box">
+                <span class="stat-number">8:1</span>
+                <span class="stat-label">Student-Teacher Ratio</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Individualized Support</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">Platform Accessibility</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Industry Tools Mastered</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">95%</span>
+                <span class="stat-label">Student Satisfaction</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-number">Weekly</span>
+                <span class="stat-label">System Refinements</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="security-section">
+          <div class="section-container">
+            <div class="section-header">
+              <h2 class="section-title">Secure Online Environment</h2>
+              <p class="section-content">
+                We utilize MSL SafeWeb, our in-house web filtering solution, to
+                maintain a secure and focused online environment for every
+                student.
+              </p>
+            </div>
+            <div class="security-grid">
+              <div class="security-card">
+                <div class="security-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">In-House Filtering</h3>
+                <p class="section-content">
+                  Proprietary MSL SafeWeb technology ensures students stay
+                  focused on educational content without distractions.
+                </p>
+              </div>
+              <div class="security-card">
+                <div class="security-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Fast Infrastructure</h3>
+                <p class="section-content">
+                  Streamlined technical systems that allow for lightning-fast
+                  updates and maintenance cycles.
+                </p>
+              </div>
+              <div class="security-card">
+                <div class="security-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M2 12h20A10 10 0 1 1 12 2a14.5 14.5 0 0 0 0 20a14.5 14.5 0 0 0 4-10m5-9l-5 5"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Global Safety Standards</h3>
+                <p class="section-content">
+                  Compliance with core standards while maintaining a flexible,
+                  student-centered digital experience.
+                </p>
+              </div>
+              <div class="security-card">
+                <div class="security-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 11V6m0 12v-2m-3 3h6"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Focused Learning</h3>
+                <p class="section-content">
+                  Eliminating digital noise to create a space where deep
+                  concentration and independent thinking thrive.
+                </p>
+              </div>
+              <div class="security-card">
+                <div class="security-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 2v20m10-10H2"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Reliable Access</h3>
+                <p class="section-content">
+                  Redundant systems ensure that learning never stops, providing
+                  a 99.9% uptime for coursework.
+                </p>
+              </div>
+              <div class="security-card">
+                <div class="security-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Continuous Evolution</h3>
+                <p class="section-content">
+                  Quick implementation of improvements based on student and
+                  instructor feedback loops.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="journey-section">
+          <div class="section-container">
+            <div class="section-header">
+              <h2 class="section-title">The Student Journey</h2>
+              <p class="section-content">
+                A clear path from enrollment to mastery through our structured
+                yet flexible curriculum.
+              </p>
+            </div>
+            <div class="journey-steps">
+              <div class="step-item">
+                <div class="step-line"></div>
+                <div class="step-node"><span>1</span></div>
+                <h4 class="section-subtitle">Digital Onboarding</h4>
+                <p class="section-content">
+                  Initial orientation to the unified platform and MSL SafeWeb
+                  protocols.
+                </p>
+              </div>
+              <div class="step-item">
+                <div class="step-line"></div>
+                <div class="step-node"><span>2</span></div>
+                <h4 class="section-subtitle">Curriculum Alignment</h4>
+                <p class="section-content">
+                  Selecting core standard coursework tailored to individual
+                  academic goals.
+                </p>
+              </div>
+              <div class="step-item">
+                <div class="step-line"></div>
+                <div class="step-node"><span>3</span></div>
+                <h4 class="section-subtitle">Project Exploration</h4>
+                <p class="section-content">
+                  Engaging in flexible, project-based learning to apply
+                  technical skills.
+                </p>
+              </div>
+              <div class="step-item">
+                <div class="step-line"></div>
+                <div class="step-node"><span>4</span></div>
+                <h4 class="section-subtitle">Progress Mastery</h4>
+                <p class="section-content">
+                  Continuous review and refinement leading to independent
+                  mastery.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="testimonials-section">
+          <div class="testimonials-wrapper">
+            <div id="testimonialTrack" class="testimonials-track">
+              <div class="testimonial-card">
+                <p class="testimonial-quote">
+                  "The unified platform makes it so easy to stay on top of my
+                  projects. I feel like I'm actually learning how to think, not
+                  just how to pass a test."
+                </p>
+                <div class="testimonial-author">
+                  <span class="author-name">Sarah J.</span>
+                  <span class="author-role">Grade 11 Student</span>
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <p class="testimonial-quote">
+                  "As a parent, the MSL SafeWeb integration gives me peace of
+                  mind. My son is focused, secure, and genuinely excited about
+                  his coursework."
+                </p>
+                <div class="testimonial-author">
+                  <span class="author-name">David M.</span>
+                  <span class="author-role">Parent</span>
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <p class="testimonial-quote">
+                  "The small community model has transformed my daughter's
+                  academic growth. The individualized support is unlike anything
+                  we've seen."
+                </p>
+                <div class="testimonial-author">
+                  <span class="author-name">Elena R.</span>
+                  <span class="author-role">Parent</span>
+                </div>
+              </div>
+              <div class="testimonial-card">
+                <p class="testimonial-quote">
+                  "I love the project-based approach. It allowed me to explore
+                  my interest in coding while still meeting all my core
+                  standards."
+                </p>
+                <div class="testimonial-author">
+                  <span class="author-name">Marcus T.</span>
+                  <span class="author-role">Grade 12 Student</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-controls">
+              <button id="prevTestimonial" class="control-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m15 18l-6-6l6-6"
+                  ></path>
+                </svg>
+              </button>
+              <button id="nextTestimonial" class="control-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m9 18l6-6l-6-6"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="cta-section">
+          <div class="section-container">
+            <div class="cta-card">
+              <div class="cta-content">
+                <h2 class="section-title">
+                  Ready to Experience the Future of Learning?
+                </h2>
+                <p class="section-content">
+                  Schedule a personalized tour of our campus or a live demo of
+                  our unified online platform today. Discover how we empower
+                  independent thinking in a secure digital environment.
+                </p>
+                <div class="cta-buttons">
+                  <a href="#">
+                    <div class="btn btn-accent btn-xl">
+                      <span>Schedule a Demo</span>
+                    </div>
+                  </a>
+                  <a href="#">
+                    <div class="btn btn-outline btn-xl">
+                      <span>Contact Admissions</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="cta-visual">
+                <img
+                  src="https://images.pexels.com/photos/5621938/pexels-photo-5621938.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                  alt="Student using tablet"
+                  class="cta-img"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="home-container2">
+          <div class="home-container3">
+            <script defer="" data-name="school-platform-interactions">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  const track = document.getElementById("testimonialTrack")
+                  const nextBtn = document.getElementById("nextTestimonial")
+                  const prevBtn = document.getElementById("prevTestimonial")
+
+                  let currentPosition = 0
+                  const cardWidth = 400 + 24 // Width + Margin
+
+                  if (track && nextBtn && prevBtn) {
+                    nextBtn.addEventListener("click", () => {
+                      const maxScroll = track.scrollWidth - track.clientWidth
+                      currentPosition += cardWidth
+                      if (currentPosition > maxScroll) currentPosition = 0
+                      track.style.transform = `translateX(-${currentPosition}px)`
+                    })
+
+                    prevBtn.addEventListener("click", () => {
+                      currentPosition -= cardWidth
+                      if (currentPosition < 0) {
+                        currentPosition = track.scrollWidth - track.clientWidth
+                      }
+                      track.style.transform = `translateX(-${currentPosition}px)`
+                    })
+                  }
+
+                  // Simple reveal on scroll for feature cards
+                  const observerOptions = {
+                    threshold: 0.1,
+                  }
+
+                  const observer = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                      if (entry.isIntersecting) {
+                        entry.target.style.opacity = "1"
+                        entry.target.style.transform = "translateY(0)"
+                      }
+                    })
+                  }, observerOptions)
+
+                  document.querySelectorAll(".feature-card, .security-card, .stat-box").forEach((el) => {
+                    el.style.opacity = "0"
+                    el.style.transform = "translateY(20px)"
+                    el.style.transition = "all 0.6s ease-out"
+                    observer.observe(el)
+                  })
+                })()
+              });
+            </script>
+          </div>
+        </div>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div class="footer-container1">
+            <footer class="footer-root">
+              <div class="footer-container">
+                <div class="footer-top-grid">
+                  <div class="footer-brand-column">
+                    <div class="footer-logo-wrap">
+                      <div class="footer-logo-icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                        >
+                          <g
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                          >
+                            <path
+                              d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                            ></path>
+                            <path d="m9 12l2 2l4-4"></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <span class="footer-brand-name">MSL SafeWeb</span>
+                    </div>
+                    <p class="footer-description section-content">
+                      Empowering students through secure, project-based learning
+                      and advanced digital literacy. Our unified platform
+                      ensures a reliable and evolving educational experience.
+                    </p>
+                    <div class="footer-social-row">
+                      <a href="#">
+                        <div aria-label="LinkedIn" class="footer-social-link">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <g
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                            >
+                              <path
+                                d="M8 11v5m0-8v.01M12 16v-5m4 5v-3a2 2 0 1 0-4 0"
+                              ></path>
+                              <path
+                                d="M3 7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div aria-label="Twitter" class="footer-social-link">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M22 4.01c-1 .49-1.98.689-3 .99c-1.121-1.265-2.783-1.335-4.38-.737S11.977 6.323 12 8v1c-3.245.083-6.135-1.395-8-4c0 0-4.182 7.433 4 11c-1.872 1.247-3.739 2.088-6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58-1.04 6.522-3.723 7.651-7.742a13.8 13.8 0 0 0 .497-3.753c0-.249 1.51-2.772 1.818-4.013z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div aria-label="Facebook" class="footer-social-link">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              stroke-width="2"
+                              d="M7 10v4h3v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1h3V3h-3a5 5 0 0 0-5 5v2z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="footer-nav-column">
+                    <h3 class="footer-heading">Learning Hub</h3>
+                    <nav class="footer-nav-list">
+                      <a href="Homepage">
+                        <div class="footer-nav-link">
+                          <span>Curriculum</span>
+                        </div>
+                      </a>
+                      <a href="Homepage">
+                        <div class="footer-nav-link">
+                          <span>Student Platform</span>
+                        </div>
+                      </a>
+                      <a href="Homepage">
+                        <div class="footer-nav-link">
+                          <span>Digital Literacy</span>
+                        </div>
+                      </a>
+                      <a href="Homepage">
+                        <div class="footer-nav-link">
+                          <span>Project Explorer</span>
+                        </div>
+                      </a>
+                    </nav>
+                  </div>
+                  <div class="footer-nav-column">
+                    <h3 class="footer-heading">Secure Systems</h3>
+                    <nav class="footer-nav-list">
+                      <a href="Homepage">
+                        <div class="footer-nav-link">
+                          <span>Web Filtering</span>
+                        </div>
+                      </a>
+                      <a href="Homepage">
+                        <div class="footer-nav-link">
+                          <span>SafeWeb Solutions</span>
+                        </div>
+                      </a>
+                      <a href="Homepage">
+                        <div class="footer-nav-link">
+                          <span>Technical Support</span>
+                        </div>
+                      </a>
+                      <a href="Homepage">
+                        <div class="footer-nav-link">
+                          <span>System Updates</span>
+                        </div>
+                      </a>
+                    </nav>
+                  </div>
+                </div>
+                <div class="footer-bottom-bar">
+                  <div class="footer-legal-wrap">
+                    <span class="footer-copyright">
+                      © 2026 MSL SafeWeb Learning. All rights reserved.
+                    </span>
+                    <div class="footer-legal-links">
+                      <a href="#">
+                        <div class="footer-legal-link">
+                          <span>Privacy Policy</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="footer-legal-link">
+                          <span>Terms of Service</span>
+                        </div>
+                      </a>
+                      <a href="#">
+                        <div class="footer-legal-link">
+                          <span>Accessibility</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="footer-status-indicator">
+                    <div class="footer-status-dot"></div>
+                    <span class="footer-status-text">
+                      System Status: Secure
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </footer>
+            <div class="footer-container2">
+              <div class="footer-container3">
+                <style>
+                          @keyframes footerPulse {0% {opacity: 1;
+                  transform: scale(1);}
+                  50% {opacity: 0.5;
+                  transform: scale(1.2);}
+                  100% {opacity: 1;
+                  transform: scale(1);}}
+                </style>
+              </div>
+            </div>
+            <div class="footer-container4">
+              <div class="footer-container5">
+                <script defer="" data-name="footer-interactivity">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const footerLinks = document.querySelectorAll(".footer-nav-link, .footer-social-link")
+
+                      footerLinks.forEach((link) => {
+                        link.addEventListener("mouseenter", () => {
+                          link.style.transition = "all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)"
+                        })
+                      })
+
+                      const copyrightYear = document.querySelector(".footer-copyright")
+                      if (copyrightYear) {
+                        const currentYear = new Date().getFullYear()
+                        copyrightYear.innerText = copyrightYear.innerText.replace("2026", currentYear)
+                      }
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </footer-wrapper>
+        <a href="https://play.teleporthq.io/signup">
+          <div aria-label="Sign up to TeleportHQ" class="home-container4">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 19 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="home-icon40"
+            >
+              <path
+                d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
+                fill="#B23ADE"
+              ></path>
+              <path
+                d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
+                fill="#FF5C5C"
+              ></path>
+              <path
+                d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
+                fill="#2874DE"
+              ></path>
+            </svg>
+            <span class="home-text20">Built in TeleportHQ</span>
+          </div>
+        </a>
+      </div>
+      <link
+        rel="canonical"
+        href="https://pushy-modern-manatee-gzndrd.teleporthq.app/"
+      />
+    </div>
+  </body>
+</html>
